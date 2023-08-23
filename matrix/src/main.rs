@@ -15,10 +15,11 @@ fn main() {
     // println!("{:?}",x1);
     // println!("{:?}",x1);
     // println!("{:?}",x.dot(x2.reshape((4,5))));
-    let q=matrix::Matris::<f64>::gen_numericals(1.1, (3,5));
-    let l=vec![vec![1,2,3],vec![3,4,5]];
-    let l1=vec![vec![1,2],vec![3,4],vec![5,6]];
-    let a=matrix::Matris::from_vec(l);
-    let a2=matrix::Matris::from_vec(l1);
-    println!("{:?}",a2.dot(a));
+    // let q=matrix::Matris::<f64>::gen_numericals(1.1, (3,5));
+    // let l=vec![vec![1,2,3],vec![3,4,5]];
+    // let l1=vec![vec![1,2],vec![3,4],vec![5,6]];
+    // let a=matrix::Matris::from_vec(l);
+    // let a2=matrix::Matris::from_vec(l1);
+    // println!("{:?}",a2.dot(a));
+    println!("{:?}",f32::MAX);
 }
