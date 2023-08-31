@@ -99,7 +99,7 @@ impl Matris {
                 let mut v=Vec::<f64>::new();
                 for j in 0..self.shape.0{
                     let mut a=vec![];
-                    for k in 0..self.shape.1{
+                    for k in 0..x.shape.1{
                         a.push(x.data[k][j].clone()*i[k].clone())
                     }
                     v.push(a.into_iter().sum())
